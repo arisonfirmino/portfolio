@@ -1,4 +1,7 @@
 import { useState } from "react";
+
+import { Link } from "react-scroll";
+
 import {
   FaHouse,
   FaListUl,
@@ -20,15 +23,21 @@ const NavBar = () => {
 
   return (
     <main className="bottom-0 flex w-full justify-center py-5 sm:fixed sm:py-10 ">
-      <nav className="rounded-full border border-text-color p-5">
+      <nav className="rounded-full bg-bg-color p-5">
         <ul className="flex gap-2 sm:gap-5">
           {navItems.map((menu, i) => (
             <li
               key={i}
-              onClick={() => setActive(i)}
-              className="cursor-pointer rounded-full p-3 text-2xl duration-500 sm:hover:text-primary-color"
+              className="rounded-full p-3 text-2xl duration-500 sm:hover:text-primary-color"
             >
-              <a href={`#${menu.id}`}>
+              <Link
+                to={menu.id}
+                smooth={true}
+                offset={-39}
+                duration={500}
+                onClick={() => setActive(i)}
+                className="cursor-pointer"
+              >
                 <span
                   className={`${
                     active === i ? "text-primary-color" : "duration-500"
@@ -36,7 +45,7 @@ const NavBar = () => {
                 >
                   {menu.icon}
                 </span>
-              </a>
+              </Link>
             </li>
           ))}
         </ul>

@@ -1,9 +1,13 @@
 import NavBar from "./components/NavBar";
 
+import Content from "./components/Content";
+
 const App = () => {
   return (
-    <main className="flex text-text-color">
+    <main className="flex flex-col text-text-color">
       <NavBar />
+
+      <Content />
     </main>
   );
 };
