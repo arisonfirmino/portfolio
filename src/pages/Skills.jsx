@@ -1,11 +1,11 @@
-import { BsPersonGear } from "react-icons/bs";
+import { BsGear } from "react-icons/bs";
 
 const Skills = () => {
   return (
     <main>
       <button className="flex cursor-default items-center justify-center gap-2 rounded-full border border-primary-color p-2">
         <span>
-          <BsPersonGear />
+          <BsGear />
         </span>
 
         <span>SKILLS</span>

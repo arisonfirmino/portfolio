@@ -4,8 +4,8 @@ import { Link } from "react-scroll";
 
 import {
   BsHouseDoor,
-  BsListUl,
-  BsPersonGear,
+  BsPerson,
+  BsGear,
   BsBriefcase,
   BsChatSquareText,
 } from "react-icons/bs";
@@ -13,8 +13,8 @@ import {
 const NavBar = () => {
   const navItems = [
     { id: "Home", icon: <BsHouseDoor /> },
-    { id: "Timeline", icon: <BsListUl /> },
-    { id: "Skills", icon: <BsPersonGear /> },
+    { id: "About", icon: <BsPerson /> },
+    { id: "Skills", icon: <BsGear /> },
     { id: "Projects", icon: <BsBriefcase /> },
     { id: "Contact", icon: <BsChatSquareText /> },
   ];
