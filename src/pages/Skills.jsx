@@ -8,11 +8,8 @@ const Skills = () => {
   return (
     <main>
       <button className="flex cursor-default items-center justify-center gap-2 rounded-full border border-primary-color p-2">
-        <span>
-          <BsGear />
-        </span>
-
-        <span>SKILLS</span>
+        <BsGear />
+        SKILLS
       </button>
 
       <h1 className="my-5 text-3xl font-medium sm:my-10 sm:ml-10 sm:text-4xl">

@@ -7,11 +7,8 @@ const About = () => {
   return (
     <main>
       <button className="flex cursor-default items-center justify-center gap-2 rounded-full border border-primary-color p-2">
-        <span>
-          <BsPerson />
-        </span>
-
-        <span>ABOUT</span>
+        <BsPerson />
+        ABOUT
       </button>
 
       <div className="mt-10 flex flex-col items-center justify-center gap-10 sm:mt-20 sm:flex-row">
@@ -39,11 +36,8 @@ const About = () => {
 
           <div className="flex justify-center">
             <button className="mt-5 flex items-center gap-1 rounded-full bg-primary-color px-2 text-lg duration-500 sm:hover:bg-bg-color">
-              <span>
-                <MdTranslate />
-              </span>
-
-              <span>Translate</span>
+              <MdTranslate />
+              Translate
             </button>
           </div>
         </div>

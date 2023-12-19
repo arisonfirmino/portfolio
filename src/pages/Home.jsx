@@ -15,19 +15,14 @@ const Home = () => {
   return (
     <main className="relative">
       <button className="flex cursor-default items-center justify-center gap-2 rounded-full border border-primary-color p-2">
-        <span>
-          <BsHouseDoor />
-        </span>
-
-        <span>INTRODUCE</span>
+        <BsHouseDoor />
+        INTRODUCE
       </button>
 
       <div className="right-0 top-0 my-10 flex justify-center gap-5 sm:absolute sm:my-0">
         <a href="https://wa.me/14998794845" target="_blank" rel="noreferrer">
           <button className="flex items-center gap-2 rounded-full border border-text-color p-4 text-2xl duration-500 sm:px-3 sm:py-1 sm:text-lg sm:hover:border-primary-color sm:hover:text-primary-color">
-            <span>
-              <FaWhatsapp />
-            </span>
+            <FaWhatsapp />
 
             <span className="hidden sm:flex">WhatsApp</span>
           </button>
@@ -39,9 +34,7 @@ const Home = () => {
           rel="noreferrer"
         >
           <button className="flex items-center gap-2 rounded-full border border-text-color p-4 text-2xl duration-500 sm:px-3 sm:py-1 sm:text-lg sm:hover:border-primary-color sm:hover:text-primary-color">
-            <span>
-              <FaLinkedin />
-            </span>
+            <FaLinkedin />
 
             <span className="hidden sm:flex">Linkedin</span>
           </button>
@@ -53,9 +46,7 @@ const Home = () => {
           rel="noreferrer"
         >
           <button className="flex items-center gap-2 rounded-full border border-text-color p-4 text-2xl duration-500 sm:px-3 sm:py-1 sm:text-lg sm:hover:border-primary-color sm:hover:text-primary-color">
-            <span>
-              <FaGithub />
-            </span>
+            <FaGithub />
 
             <span className="hidden sm:flex">Github</span>
           </button>
@@ -63,9 +54,7 @@ const Home = () => {
 
         <a href={resume} download={resume}>
           <button className="flex items-center gap-2 rounded-full border border-text-color p-4 text-2xl duration-500 sm:border-none sm:bg-primary-color sm:px-3 sm:py-1 sm:text-lg sm:hover:bg-bg-color">
-            <span>
-              <FaRegFilePdf />
-            </span>
+            <FaRegFilePdf />
 
             <span className="hidden sm:flex">Resume download</span>
           </button>
@@ -80,16 +69,16 @@ const Home = () => {
         <img src={Picture} alt="pic" className="w-64 rounded-3xl" />
       </picture>
 
-      <p className="mt-1 flex items-center justify-center text-sm font-light">
+      <p className="mt-1 flex items-center justify-center gap-1 text-sm font-light">
         <IoLocationOutline className="relative bottom-[1.5px]" />
-        &nbsp;Marília, São Paulo
+        Marília, São Paulo
       </p>
 
       <h3 className="mt-5 text-center text-xl font-medium">Developer</h3>
 
-      <p className="mt-10 flex items-center justify-center text-xs font-light opacity-75">
+      <p className="mt-10 flex items-center justify-center gap-1 text-xs font-light opacity-75">
         <FaRegCopyright size={8} />
-        &nbsp;2024 Arison. All Rights Reserved
+        2024 Arison. All Rights Reserved
       </p>
     </main>
   );
