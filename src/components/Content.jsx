@@ -11,7 +11,7 @@ const Content = () => {
         <Home />
       </div>
 
-      <div id="About" className="mt-10 h-auto w-full bg-red-600 sm:h-[650px]">
+      <div id="About" className="mt-10 h-auto w-full sm:h-[650px]">
         <About />
       </div>
 
