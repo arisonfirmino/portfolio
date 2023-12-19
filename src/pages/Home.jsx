@@ -85,9 +85,7 @@ const Home = () => {
         &nbsp;Marília, São Paulo
       </p>
 
-      <h3 className="mt-5 text-center text-xl font-medium">
-        Front-End Developer
-      </h3>
+      <h3 className="mt-5 text-center text-xl font-medium">Developer</h3>
 
       <p className="mt-10 flex items-center justify-center text-xs font-light opacity-75">
         <FaRegCopyright size={8} />
