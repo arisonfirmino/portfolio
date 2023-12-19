@@ -15,6 +15,15 @@ body {
   background-color: #21222c;
 }
 
+#skill-button:hover #skill-icon {
+  top: 0;
+}
+
+#skill-button:hover p {
+  visibility: visible;
+  transition: 0.5s;
+}
+
 ::-webkit-scrollbar {
   background: transparent;
   width: 5px;
