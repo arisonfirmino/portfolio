@@ -1,11 +1,11 @@
-import { FaListUl } from "react-icons/fa6";
+import { BsListUl } from "react-icons/bs";
 
 const Timeline = () => {
   return (
     <main>
       <button className="flex cursor-default items-center justify-center gap-2 rounded-full border border-primary-color p-2">
         <span>
-          <FaListUl />
+          <BsListUl />
         </span>
 
         <span>TIMELINE</span>
