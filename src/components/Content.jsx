@@ -7,7 +7,7 @@ import Contact from "../pages/Contact";
 const Content = () => {
   return (
     <main className="w-full px-5 sm:p-10">
-      <div id="Home" className="h-auto w-full bg-red-600 sm:h-[650px]">
+      <div id="Home" className="h-auto w-full sm:h-[650px]">
         <Home />
       </div>
 
