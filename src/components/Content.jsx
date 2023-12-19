@@ -7,23 +7,29 @@ import Contact from "../pages/Contact";
 const Content = () => {
   return (
     <main className="w-full px-5 sm:p-10">
-      <div id="Home" className="h-[650px] w-full bg-red-600">
+      <div id="Home" className="h-auto w-full bg-red-600 sm:h-[650px]">
         <Home />
       </div>
 
-      <div id="Timeline" className="mt-10 h-[650px] w-full bg-red-600">
+      <div
+        id="Timeline"
+        className="mt-10 h-auto w-full bg-red-600 sm:h-[650px]"
+      >
         <Timeline />
       </div>
 
-      <div id="Skills" className="mt-10 h-[650px] w-full bg-red-600">
+      <div id="Skills" className="mt-10 h-auto w-full bg-red-600 sm:h-[650px]">
         <Skills />
       </div>
 
-      <div id="Projects" className="mt-10 h-[650px] w-full bg-red-600">
+      <div
+        id="Projects"
+        className="mt-10 h-auto w-full bg-red-600 sm:h-[650px]"
+      >
         <Projects />
       </div>
 
-      <div id="Contact" className="mt-10 h-[650px] w-full bg-red-600">
+      <div id="Contact" className="mt-10 h-auto w-full sm:h-[650px]">
         <Contact />
       </div>
     </main>
