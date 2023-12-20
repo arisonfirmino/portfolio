@@ -24,6 +24,27 @@ body {
   transition: 0.5s;
 }
 
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotateY-180 {
+  transform: rotateX(180deg);
+}
+
+.card-inner {
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+#card:hover #inner {
+  transform: rotateX(-180deg);
+}
+
 ::-webkit-scrollbar {
   background: transparent;
   width: 5px;

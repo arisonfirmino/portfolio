@@ -19,10 +19,7 @@ const Content = () => {
         <Skills />
       </div>
 
-      <div
-        id="Projects"
-        className="mt-10 h-auto w-full bg-red-600 sm:h-[650px]"
-      >
+      <div id="Projects" className="mt-10 h-auto w-full sm:h-[650px]">
         <Projects />
       </div>
 
