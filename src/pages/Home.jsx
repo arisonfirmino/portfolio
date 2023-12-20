@@ -78,7 +78,7 @@ const Home = () => {
 
       <p className="mt-10 flex items-center justify-center gap-1 text-xs font-light opacity-75">
         <FaRegCopyright size={8} />
-        2024 Arison. All Rights Reserved
+        2023 Arison. All Rights Reserved
       </p>
     </main>
   );
