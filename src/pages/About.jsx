@@ -1,5 +1,4 @@
 import { BsPerson } from "react-icons/bs";
-import { MdTranslate } from "react-icons/md";
 
 import Timeline from "../components/Timeline";
 
@@ -17,29 +16,26 @@ const About = () => {
             Education and <span className="text-primary-color">Experience</span>
           </h1>
 
-          <div className="overflow-auto sm:max-h-[300px]">
+          <div className="max-h-[300px] overflow-auto">
             <Timeline />
           </div>
         </div>
 
-        <div className="overflow-auto sm:max-w-lg">
+        <div className="overflow-auto sm:max-w-3xl">
           <h1 className="mb-1 text-center text-3xl font-medium sm:text-left">
-            I'm <span className="text-primary-color">Arison Firmino</span>
+            Me chamo <span className="text-primary-color">Arison Firmino</span>
           </h1>
 
           <p className="text-center text-lg font-light sm:text-left">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Repellendus dolor corrupti impedit expedita vero dignissimos quaerat
-            dolores molestiae officia repudiandae nostrum nisi consequuntur
-            voluptas quisquam, id optio! Perspiciatis, corrupti recusandae?
+            Tenho 22 anos de idade, sou residente em Marília, no interior de São
+            Paulo. Atualmente estou em busca de oportunidades na área de
+            programação, tendo como base minha experiência adquirida por meio de
+            projetos pessoais. Minha principal experiência recai sobre a
+            linguagem <span className="text-primary-color">JavaScript</span>, na
+            qual desenvolvi e aprimorei meus projetos. Estou animado para
+            contribuir e expandir minha bagagem profissional de maneira
+            significativa em desafios dentro do universo da programação.
           </p>
-
-          <div className="flex justify-center">
-            <button className="mt-5 flex items-center gap-1 rounded-full bg-primary-color px-2 text-lg duration-500 sm:hover:bg-bg-color">
-              <MdTranslate />
-              Translate
-            </button>
-          </div>
         </div>
       </div>
     </main>
