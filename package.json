@@ -1,6 +1,6 @@
 {
-  "homepage": "https://arisonfirmino.github.io/arisons-portfolio",
-  "name": "arisons-portfolio",
+  "homepage": "https://arisonfirmino.github.io/portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
