@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/arisons-portfolio/static/css/main.a29cfd02.css",
-    "main.js": "/arisons-portfolio/static/js/main.1410b3c4.js",
+    "main.css": "/arisons-portfolio/static/css/main.3932d195.css",
+    "main.js": "/arisons-portfolio/static/js/main.3608bb62.js",
     "static/media/picture.png": "/arisons-portfolio/static/media/picture.d7a8f897b74c8cfedd5f.png",
-    "static/media/resume.pdf": "/arisons-portfolio/static/media/resume.341d45aa4e5e9b0bff1a.pdf",
+    "static/media/resume.pdf": "/arisons-portfolio/static/media/resume.ed5f4a88c65e4b0b84b8.pdf",
     "static/media/Untitled.png": "/arisons-portfolio/static/media/Untitled.d98e3e0055b038f6b6d8.png",
     "index.html": "/arisons-portfolio/index.html",
-    "main.a29cfd02.css.map": "/arisons-portfolio/static/css/main.a29cfd02.css.map",
-    "main.1410b3c4.js.map": "/arisons-portfolio/static/js/main.1410b3c4.js.map"
+    "main.3932d195.css.map": "/arisons-portfolio/static/css/main.3932d195.css.map",
+    "main.3608bb62.js.map": "/arisons-portfolio/static/js/main.3608bb62.js.map"
   },
   "entrypoints": [
-    "static/css/main.a29cfd02.css",
-    "static/js/main.1410b3c4.js"
+    "static/css/main.3932d195.css",
+    "static/js/main.3608bb62.js"
   ]
 }
