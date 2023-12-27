@@ -56,7 +56,7 @@ const Home = () => {
           <button className="flex items-center gap-2 rounded-full border border-text-color p-4 text-2xl duration-500 sm:border-none sm:bg-primary-color sm:px-3 sm:py-1 sm:text-lg sm:hover:bg-bg-color">
             <FaRegFilePdf />
 
-            <span className="hidden sm:flex">Download CV</span>
+            <span className="hidden sm:flex">Download resume</span>
           </button>
         </a>
       </div>

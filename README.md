@@ -19,7 +19,7 @@ https://arisonfirmino.github.io/arisons-portfolio
 
 <div align="center">
 
-![Preview](https://cdn.dribbble.com/userupload/12052362/file/original-71076d6fe9a218a7a676e1071e1c0c24.png?resize=752x)
+![Preview](https://cdn.dribbble.com/userupload/12162099/file/original-ccdc7e49422b0c6a73422e7bc5adbba5.png?resize=752x)
 
 </div>
 
