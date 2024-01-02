@@ -15,7 +15,7 @@ Portfólio criado com o intuito de mostrar minhas habilidades, experiências e p
 
 ## 🔗 Acesse meu portfólio
 
-https://arisonfirmino.github.io/arisons-portfolio
+https://arisonfirmino.github.io/portfolio
 
 <div align="center">
 

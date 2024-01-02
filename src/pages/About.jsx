@@ -11,7 +11,7 @@ const About = () => {
       </button>
 
       <div className="mt-10 flex flex-col items-center justify-center gap-10 sm:mt-20 sm:flex-row">
-        <div className="sm:max-w-lg">
+        <div className="blur-sm sm:max-w-lg">
           <h1 className="mb-5 text-2xl font-medium">
             Education and <span className="text-primary-color">Experience</span>
           </h1>
